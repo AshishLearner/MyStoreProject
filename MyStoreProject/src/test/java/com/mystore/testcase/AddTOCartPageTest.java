@@ -18,6 +18,7 @@ import com.mystore.pageobject.SearchResultPage;
  * @author HP
  *
  */
+
 public class AddTOCartPageTest extends BaseClass {
 
 	IndexPage indexpage;
