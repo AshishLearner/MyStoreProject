@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="14" total="25" passed="10" failed="0" skipped="1">
+<testng-results ignored="14" total="25" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-13T22:58:34 IST" name="Suite" finished-at="2024-03-13T23:01:45 IST" duration-ms="190623">
+  <suite started-at="2024-03-14T10:50:13 IST" name="Suite" finished-at="2024-03-14T10:53:03 IST" duration-ms="169902">
     <groups>
       <group name="Sanity">
         <method signature="AccountCreationPageTest.verifyCreateaccountPageTest()[pri:0, instance:com.mystore.testcase.AccountCreationPageTest@4d465b11]" name="verifyCreateaccountPageTest" class="com.mystore.testcase.AccountCreationPageTest"/>
@@ -24,9 +24,9 @@
         <method signature="SearchResultPageTest.verifyProductclikable()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" name="verifyProductclikable" class="com.mystore.testcase.SearchResultPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2024-03-13T22:58:34 IST" name="Test_All" finished-at="2024-03-13T23:01:45 IST" duration-ms="190623">
+    <test started-at="2024-03-14T10:50:13 IST" name="Test_All" finished-at="2024-03-14T10:53:03 IST" duration-ms="169902">
       <class name="com.mystore.testcase.IndexPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-13T22:59:13 IST" name="setup" finished-at="2024-03-13T22:59:24 IST" duration-ms="11166" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-14T10:50:43 IST" name="setup" finished-at="2024-03-14T10:50:53 IST" duration-ms="9397" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,15 +37,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-13T22:59:24 IST" name="verifyTitle" finished-at="2024-03-13T22:59:24 IST" duration-ms="41" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-14T10:50:53 IST" name="verifyTitle" finished-at="2024-03-14T10:50:53 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-13T22:59:24 IST" name="teatDown" finished-at="2024-03-13T22:59:25 IST" duration-ms="788" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-14T10:50:53 IST" name="teatDown" finished-at="2024-03-14T10:50:54 IST" duration-ms="820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-13T22:59:25 IST" name="setup" finished-at="2024-03-13T22:59:33 IST" duration-ms="8045" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-14T10:50:54 IST" name="setup" finished-at="2024-03-14T10:51:03 IST" duration-ms="8996" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -56,17 +56,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifylogo()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-13T22:59:33 IST" name="verifylogo" finished-at="2024-03-13T22:59:33 IST" duration-ms="116" status="PASS">
+        <test-method signature="verifylogo()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-14T10:51:03 IST" name="verifylogo" finished-at="2024-03-14T10:51:03 IST" duration-ms="143" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogo -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-13T22:59:33 IST" name="teatDown" finished-at="2024-03-13T22:59:34 IST" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.IndexPageTest@16610890]" started-at="2024-03-14T10:51:03 IST" name="teatDown" finished-at="2024-03-14T10:51:04 IST" duration-ms="766" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.mystore.testcase.IndexPageTest -->
       <class name="com.mystore.testcase.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-13T23:01:29 IST" name="setup" finished-at="2024-03-13T23:01:38 IST" duration-ms="9006" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-14T10:52:37 IST" name="setup" finished-at="2024-03-14T10:52:45 IST" duration-ms="7455" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -77,15 +77,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Orderhistorydetails()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-13T23:01:38 IST" name="Orderhistorydetails" finished-at="2024-03-13T23:01:42 IST" duration-ms="3345" status="PASS">
+        <test-method signature="Orderhistorydetails()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-14T10:52:45 IST" name="Orderhistorydetails" finished-at="2024-03-14T10:52:48 IST" duration-ms="3301" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Orderhistorydetails -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-13T23:01:42 IST" name="teatDown" finished-at="2024-03-13T23:01:42 IST" duration-ms="757" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-14T10:52:48 IST" name="teatDown" finished-at="2024-03-14T10:52:49 IST" duration-ms="852" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-13T23:01:42 IST" name="setup" finished-at="2024-03-13T23:01:45 IST" duration-ms="2733" status="FAIL">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-14T10:52:49 IST" name="setup" finished-at="2024-03-14T10:52:53 IST" duration-ms="3959" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -93,162 +93,20 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[no such execution context
-  (Session info: chrome=122.0.6261.112)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [771e6d337528564f32a5600a57659d0c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53014/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 771e6d337528564f32a5600a57659d0c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: no such execution context
-  (Session info: chrome=122.0.6261.112)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [771e6d337528564f32a5600a57659d0c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53014/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 771e6d337528564f32a5600a57659d0c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
-at com.mystore.base.BaseClass.launchApp(BaseClass.java:68)
-at com.mystore.testcase.HomePageTest.setup(HomePageTest.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyWishLisTest()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-13T23:01:45 IST" name="verifyWishLisTest" finished-at="2024-03-13T23:01:45 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[no such execution context
-  (Session info: chrome=122.0.6261.112)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [771e6d337528564f32a5600a57659d0c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53014/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 771e6d337528564f32a5600a57659d0c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: no such execution context
-  (Session info: chrome=122.0.6261.112)
-Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.4'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [771e6d337528564f32a5600a57659d0c, maximizeCurrentWindow {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 122.0.6261.112, chrome: {chromedriverVersion: 122.0.6261.128 (f18a44fedeb..., userDataDir: C:\Users\HP\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53014}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53014/devtoo..., se:cdpVersion: 122.0.6261.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 771e6d337528564f32a5600a57659d0c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:591)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:595)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:978)
-at com.mystore.base.BaseClass.launchApp(BaseClass.java:68)
-at com.mystore.testcase.HomePageTest.setup(HomePageTest.java:31)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:63)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:348)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:695)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:523)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
-at org.testng.TestRunner.privateRun(TestRunner.java:766)
-at org.testng.TestRunner.run(TestRunner.java:587)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
-at org.testng.TestNG.runSuites(TestNG.java:1039)
-at org.testng.TestNG.run(TestNG.java:1007)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method signature="verifyWishLisTest()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-14T10:52:53 IST" name="verifyWishLisTest" finished-at="2024-03-14T10:53:02 IST" duration-ms="9095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyWishLisTest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-13T23:01:45 IST" name="teatDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1710351105610" status="SKIP">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.HomePageTest@32ee6fee]" started-at="2024-03-14T10:53:02 IST" name="teatDown" finished-at="2024-03-14T10:53:03 IST" duration-ms="814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.mystore.testcase.HomePageTest -->
       <class name="com.mystore.testcase.AddTOCartPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.AddTOCartPageTest@383bfa16]" started-at="2024-03-13T22:59:57 IST" name="setup" finished-at="2024-03-13T23:00:09 IST" duration-ms="12340" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.AddTOCartPageTest@383bfa16]" started-at="2024-03-14T10:51:23 IST" name="setup" finished-at="2024-03-14T10:51:32 IST" duration-ms="8778" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -259,17 +117,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProducttoAddInCart()[pri:0, instance:com.mystore.testcase.AddTOCartPageTest@383bfa16]" started-at="2024-03-13T23:00:09 IST" name="verifyProducttoAddInCart" finished-at="2024-03-13T23:00:19 IST" duration-ms="9754" status="PASS">
+        <test-method signature="verifyProducttoAddInCart()[pri:0, instance:com.mystore.testcase.AddTOCartPageTest@383bfa16]" started-at="2024-03-14T10:51:32 IST" name="verifyProducttoAddInCart" finished-at="2024-03-14T10:51:39 IST" duration-ms="6550" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProducttoAddInCart -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.AddTOCartPageTest@383bfa16]" started-at="2024-03-13T23:00:19 IST" name="teatDown" finished-at="2024-03-13T23:00:20 IST" duration-ms="817" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.AddTOCartPageTest@383bfa16]" started-at="2024-03-14T10:51:39 IST" name="teatDown" finished-at="2024-03-14T10:51:39 IST" duration-ms="779" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.mystore.testcase.AddTOCartPageTest -->
       <class name="com.mystore.testcase.AccountCreationPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.AccountCreationPageTest@4d465b11]" started-at="2024-03-13T23:00:20 IST" name="setup" finished-at="2024-03-13T23:00:30 IST" duration-ms="10419" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.AccountCreationPageTest@4d465b11]" started-at="2024-03-14T10:51:39 IST" name="setup" finished-at="2024-03-14T10:51:47 IST" duration-ms="7406" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -280,17 +138,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCreateaccountPageTest()[pri:0, instance:com.mystore.testcase.AccountCreationPageTest@4d465b11]" started-at="2024-03-13T23:00:30 IST" name="verifyCreateaccountPageTest" finished-at="2024-03-13T23:00:35 IST" duration-ms="4438" status="PASS">
+        <test-method signature="verifyCreateaccountPageTest()[pri:0, instance:com.mystore.testcase.AccountCreationPageTest@4d465b11]" started-at="2024-03-14T10:51:47 IST" name="verifyCreateaccountPageTest" finished-at="2024-03-14T10:51:50 IST" duration-ms="2827" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateaccountPageTest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.AccountCreationPageTest@4d465b11]" started-at="2024-03-13T23:00:35 IST" name="teatDown" finished-at="2024-03-13T23:00:35 IST" duration-ms="953" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.AccountCreationPageTest@4d465b11]" started-at="2024-03-14T10:51:50 IST" name="teatDown" finished-at="2024-03-14T10:51:50 IST" duration-ms="818" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.mystore.testcase.AccountCreationPageTest -->
       <class name="com.mystore.testcase.OrderPsageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.OrderPsageTest@71def8f8]" started-at="2024-03-13T22:59:34 IST" name="setup" finished-at="2024-03-13T22:59:42 IST" duration-ms="8191" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.OrderPsageTest@71def8f8]" started-at="2024-03-14T10:51:04 IST" name="setup" finished-at="2024-03-14T10:51:11 IST" duration-ms="7494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -301,17 +159,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTotalPrice()[pri:0, instance:com.mystore.testcase.OrderPsageTest@71def8f8]" started-at="2024-03-13T22:59:42 IST" name="verifyTotalPrice" finished-at="2024-03-13T22:59:56 IST" duration-ms="13885" status="PASS">
+        <test-method signature="verifyTotalPrice()[pri:0, instance:com.mystore.testcase.OrderPsageTest@71def8f8]" started-at="2024-03-14T10:51:11 IST" name="verifyTotalPrice" finished-at="2024-03-14T10:51:22 IST" duration-ms="11388" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTotalPrice -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.OrderPsageTest@71def8f8]" started-at="2024-03-13T22:59:56 IST" name="teatDown" finished-at="2024-03-13T22:59:57 IST" duration-ms="1089" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.OrderPsageTest@71def8f8]" started-at="2024-03-14T10:51:22 IST" name="teatDown" finished-at="2024-03-14T10:51:23 IST" duration-ms="857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.mystore.testcase.OrderPsageTest -->
       <class name="com.mystore.testcase.EndToEndTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.EndToEndTest@53fdffa1]" started-at="2024-03-13T23:00:35 IST" name="setup" finished-at="2024-03-13T23:00:44 IST" duration-ms="8726" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.EndToEndTest@53fdffa1]" started-at="2024-03-14T10:51:50 IST" name="setup" finished-at="2024-03-14T10:51:58 IST" duration-ms="7146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -322,17 +180,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="EndtoEndTest()[pri:0, instance:com.mystore.testcase.EndToEndTest@53fdffa1]" started-at="2024-03-13T23:00:44 IST" name="EndtoEndTest" finished-at="2024-03-13T23:01:08 IST" duration-ms="23864" status="PASS">
+        <test-method signature="EndtoEndTest()[pri:0, instance:com.mystore.testcase.EndToEndTest@53fdffa1]" started-at="2024-03-14T10:51:58 IST" name="EndtoEndTest" finished-at="2024-03-14T10:52:20 IST" duration-ms="22135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EndtoEndTest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.EndToEndTest@53fdffa1]" started-at="2024-03-13T23:01:08 IST" name="teatDown" finished-at="2024-03-13T23:01:09 IST" duration-ms="929" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.EndToEndTest@53fdffa1]" started-at="2024-03-14T10:52:20 IST" name="teatDown" finished-at="2024-03-14T10:52:21 IST" duration-ms="918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.mystore.testcase.EndToEndTest -->
       <class name="com.mystore.testcase.LoginPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.LoginPageTest@5562c41e]" started-at="2024-03-13T23:01:11 IST" name="setup" finished-at="2024-03-13T23:01:24 IST" duration-ms="12503" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.LoginPageTest@5562c41e]" started-at="2024-03-14T10:52:23 IST" name="setup" finished-at="2024-03-14T10:52:28 IST" duration-ms="5241" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -343,7 +201,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcase.LoginPageTest@5562c41e]" started-at="2024-03-13T23:01:24 IST" name="logintest" data-provider="credentials" finished-at="2024-03-13T23:01:28 IST" duration-ms="4762" status="PASS">
+        <test-method signature="logintest(java.lang.String, java.lang.String)[pri:0, instance:com.mystore.testcase.LoginPageTest@5562c41e]" started-at="2024-03-14T10:52:28 IST" name="logintest" data-provider="credentials" finished-at="2024-03-14T10:52:36 IST" duration-ms="8057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -359,17 +217,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logintest -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.LoginPageTest@5562c41e]" started-at="2024-03-13T23:01:28 IST" name="teatDown" finished-at="2024-03-13T23:01:29 IST" duration-ms="775" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.LoginPageTest@5562c41e]" started-at="2024-03-14T10:52:36 IST" name="teatDown" finished-at="2024-03-14T10:52:37 IST" duration-ms="858" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
       </class> <!-- com.mystore.testcase.LoginPageTest -->
       <class name="com.mystore.testcase.SearchResultPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T22:58:34 IST" name="loadConfig" finished-at="2024-03-13T22:58:34 IST" duration-ms="741" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:50:12 IST" name="loadConfig" finished-at="2024-03-14T10:50:13 IST" duration-ms="488" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T22:58:35 IST" name="setup" finished-at="2024-03-13T22:58:54 IST" duration-ms="19070" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:50:13 IST" name="setup" finished-at="2024-03-14T10:50:28 IST" duration-ms="15337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -380,15 +238,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductAvailability()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T22:58:54 IST" name="verifyProductAvailability" finished-at="2024-03-13T22:58:57 IST" duration-ms="2167" status="PASS">
+        <test-method signature="verifyProductAvailability()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:50:28 IST" name="verifyProductAvailability" finished-at="2024-03-14T10:50:30 IST" duration-ms="2062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductAvailability -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T22:58:57 IST" name="teatDown" finished-at="2024-03-13T22:58:57 IST" duration-ms="834" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:50:30 IST" name="teatDown" finished-at="2024-03-14T10:50:31 IST" duration-ms="854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T22:58:57 IST" name="setup" finished-at="2024-03-13T22:59:03 IST" duration-ms="6087" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:50:31 IST" name="setup" finished-at="2024-03-14T10:50:35 IST" duration-ms="4034" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -399,15 +257,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyProductclikable()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T22:59:03 IST" name="verifyProductclikable" finished-at="2024-03-13T22:59:12 IST" duration-ms="8306" status="PASS">
+        <test-method signature="verifyProductclikable()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:50:35 IST" name="verifyProductclikable" finished-at="2024-03-14T10:50:43 IST" duration-ms="7236" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyProductclikable -->
-        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T22:59:12 IST" name="teatDown" finished-at="2024-03-13T22:59:13 IST" duration-ms="817" status="PASS">
+        <test-method is-config="true" signature="teatDown()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:50:43 IST" name="teatDown" finished-at="2024-03-14T10:50:43 IST" duration-ms="834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teatDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-13T23:01:45 IST" name="afterSuite" finished-at="2024-03-13T23:01:46 IST" duration-ms="900" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcase.SearchResultPageTest@3bf9ce3e]" started-at="2024-03-14T10:53:03 IST" name="afterSuite" finished-at="2024-03-14T10:53:04 IST" duration-ms="660" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
